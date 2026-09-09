@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تور گردشگری | بومیران</title>
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav__container container">
+
+            <a href="" class="nav__logo">
+                <img src="assets/images/logo.png" alt="لوگوی بومیران">
+                <p>بومیران</p>
+            </a>
+
+            <ul class="nav__links">
+                <li><a href="">خانه</a></li>
+                <li><a href="">مقاصد گردشگری</a></li>
+                <li><a href="">اقامتگاه</a></li>
+                <li><a href="">تور ها</a></li>
+                <li><a href="">تجربه شما</a></li>
+                <li><a href="">مجله سفر</a></li>
+                <li><a href="">درباره ما</a></li>
+                <li><a href="">تماس با ما</a></li>
+            </ul>
+
+            <ul class="nav__login">
+
+                <li>
+                    <svg
+                        class="w-6 h-6 text-gray-800 dark:text-white"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="none"
+                        viewBox="0 0 24 24">
+
+                        <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                    </svg>
+                </li>
+
+                <li><a href="">ورود</a></li>
+
+                <li aria-hidden="true">/</li>
+
+                <li><a href="">ثبت نام</a></li>
+
+                <li>
+                    <svg
+                        class="w-6 h-6 text-gray-800 dark:text-white"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="none"
+                        viewBox="0 0 24 24">
+
+                        <path
+                            stroke="currentColor"
+                            stroke-width="2"
+                            d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                    </svg>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- ====== Hero ====== -->
+    <section class="hero">
+
+        <picture>
+            <source
+                type="image/webp"
+                srcset="
+                    assets/images/hero@1x.webp 1x,
+                    assets/images/hero@2x.webp 2x
+                ">
+
+            <img
+                src="assets/images/hero.png"
+                alt="تخت جمشید در ایران">
+        </picture>
+
+
+        <div class="hero__content container">
+
+            <h1>ایران، سرزمین شگفتی ها</h1>
+
+            <p>سفر به هزاران سال تاریخ و فرهنگ</p>
+
+            <a href="" class="btn btn--primary">
+                کشف ایران
+            </a>
+
+        </div>
+
+
+        <!-- ============== Search Box ============== -->
+
+        <div class="search-box container">
+
+            <!-- tabs -->
+            <div class="search__tabs" role="tablist">
+
+                <button
+                    class="search__tab active"
+                    role="tab"
+                    aria-selected="true"
+                    aria-controls="tour-panel"
+                    id="tour-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-backpack3" viewBox="0 0 16 16">
+  <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"/>
+  <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c.465.165.904.385 1.308.653l.416-1.247a1 1 0 0 1 1.748-.284l.77 1.027a1 1 0 0 1 .15.917l-.803 2.407C13.854 6.49 14 7.229 14 8v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8c0-.771.146-1.509.41-2.186l-.802-2.407a1 1 0 0 1 .15-.917l.77-1.027a1 1 0 0 1 1.748.284l.416 1.247A6 6 0 0 1 6 2.34ZM7 2v.083a6 6 0 0 1 2 0V2a1 1 0 1 0-2 0m5.941 2.595.502-1.505-.77-1.027-.532 1.595q.447.427.8.937M3.86 3.658l-.532-1.595-.77 1.027.502 1.505q.352-.51.8-.937M8 3a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5"/>
+</svg>
+                    تور ها
+                    
+                </button>
+
+
+                <button
+                    class="search__tab"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="fly-panel"
+                    id="fly-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-airplane-engines" viewBox="0 0 16 16">
+  <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.35 4.35 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0M7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1s.458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7z"/>
+</svg>
+                    پرواز ها
+
+                </button>
+
+
+                <button
+                    class="search__tab"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="stay-panel"
+                    id="stay-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16">
+  <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z"/>
+</svg>
+                    اقامتگاه ها
+
+                </button>
+
+            </div>
+
+
+            <!-- panels -->
+            <div class="search__panels">
+
+                <!-- پنل تور ها -->
+                <div
+                    class="search__panel active"
+                    role="tabpanel"
+                    id="tour-panel"
+                    aria-labelledby="tour-tab">
+
+                    <form class="search__form">
+
+                        <div class="form__group">
+
+                            <label for="tour-search">
+                                تور ها
+                            </label>
+
+                            <select name="tour" id="tour-search">
+
+                                <option value="">
+                                    تور را انتخاب کنید
+                                </option>
+
+                                <option value="1">
+                                    تور کویر
+                                </option>
+
+                                <option value="2">
+                                    تور شیراز
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="check-in">
+                                تاریخ رفت
+                            </label>
+
+                            <input
+                                type="date"
+                                id="check-in"
+                                name="check-in">
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="check-out">
+                                تاریخ برگشت
+                            </label>
+
+                            <input
+                                type="date"
+                                id="check-out"
+                                name="check-out">
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="guests">
+                                تعداد نفرات
+                            </label>
+
+                            <input
+                                type="number"
+                                id="guests"
+                                name="guests"
+                                placeholder="0">
+
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="search-btn">
+
+                            جستجو
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+                <!-- پنل پرواز ها -->
+                <div
+                    class="search__panel"
+                    role="tabpanel"
+                    id="fly-panel"
+                    aria-labelledby="fly-tab">
+
+                    <form class="search__form">
+
+                        <div class="form__group">
+
+                            <label for="fly-search">
+                                پرواز ها
+                            </label>
+
+                            <select name="flight" id="fly-search">
+
+                                <option value="">
+                                    پرواز را انتخاب کنید
+                                </option>
+
+                                <option value="1">
+                                    ملکی ایرلاین
+                                </option>
+
+                                <option value="2">
+                                    مورگان ایر
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="check-in-fly">
+                                تاریخ رفت
+                            </label>
+
+                            <input
+                                type="date"
+                                id="check-in-fly"
+                                name="check-in-fly">
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="check-out-fly">
+                                تاریخ برگشت
+                            </label>
+
+                            <input
+                                type="date"
+                                id="check-out-fly"
+                                name="check-out-fly">
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="guests-fly">
+                                تعداد نفرات
+                            </label>
+
+                            <input
+                                type="number"
+                                id="guests-fly"
+                                name="guests-fly">
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="search-btn">
+
+                            جستجو
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+                <!-- پنل اقامتگاه ها -->
+                <div
+                    class="search__panel"
+                    role="tabpanel"
+                    id="stay-panel"
+                    aria-labelledby="stay-tab">
+
+                    <form class="search__form">
+
+                        <div class="form__group">
+
+                            <label for="stay-search">
+                                اقامتگاه ها
+                            </label>
+
+                            <select name="stay" id="stay-search">
+
+                                <option value="">
+                                    اقامتگاه را انتخاب کنید
+                                </option>
+
+                                <option value="1">
+                                    اقامتگاه کویری
+                                </option>
+
+                                <option value="2">
+                                    اقامتگاه شیراز
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="check-in-stay">
+                                تاریخ ورود
+                            </label>
+
+                            <input
+                                type="date"
+                                id="check-in-stay"
+                                name="check-in-stay">
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="check-out-stay">
+                                تاریخ خروج
+                            </label>
+
+                            <input
+                                type="date"
+                                id="check-out-stay"
+                                name="check-out-stay">
+
+                        </div>
+
+
+                        <div class="form__group">
+
+                            <label for="guests-stay">
+                                تعداد نفرات
+                            </label>
+
+                            <input
+                                type="number"
+                                id="guests-stay"
+                                name="guests-stay">
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="search-btn">
+
+                            جستجو
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--=========== popular section============== -->
+    <section class="popular container">
+
+        <div class="popular__header">
+            <h2>تور های محبوب</h2>
+            <a  class="see-all">همه تور ها</a>
+        </div>
+
+        <div class="slider">
+
+           <article class="slider__card popular__card">
+            <a href="#">
+                <div class="card__image"><img src="assets/images/isfahan-paul khajoo-r-1_0.jpg" alt=""></div>
+                <div class="card__header">
+                  <h3>اصفهان</h3>
+                 <p>دومین شهر بزرگ ایران</p>
+             </div>
+            </a>
+           </article>
+
+           <article class="slider__card popular__card">
+            <a href="">
+                <div class="card__image">
+                    <img src="assets/images/khuzestan.jpg"  alt="">
+                </div>
+                <div class="card__header">
+                    <h3>خوزستان</h3>
+                    <p>طبیعت بی نظیر، تاریخ کهن</p>
+                </div>
+            </a>
+           </article>
+
+           <article class="slider__card popular__card">
+            <a href="">
+                <div class="card__image"><img src="assets/images/shiraz.jpg"  alt=""></div>
+                <div class="card__header">
+                    <h3>شیراز</h3>
+                    <p>شهری به بلندای تاریخ</p>
+                </div>
+            </a>
+           </article>
+
+        </div>  
+    </section>
+
+    <!-- ====== Benefit ======== -->
+    
+    <section class="benefit-section">
+
+        <div class=" benefits container">
+
+            <article class="benefit">
+                <div class="benefit__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-collection-fill" viewBox="0 0 16 16">
+                    <path d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3m2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1"/>
+                    </svg>
+                </div>
+                <div class="benefit__tetxt">
+                    <h3>تنوع بالا</h3>
+                    <p>صد ها تور گردشگری سراسر ایران</p>
+                </div>
+            </article>
+            
+            <article class="benefit">
+                <div class="benefit__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                   <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                   </svg>
+                </div>
+                <div class="benefit__tetxt">
+                    <h3>پشتیبانی 24 ساعته</h3>
+                    <p>صد ها تور گردشگری سراسر ایران</p>
+                </div>
+            </article>
+            
+            <article class="benefit">
+                <div class="benefit__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+  <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+</svg>
+                </div>
+                <div class="benefit__text">
+                    <h3>رزرو آسان و سریع</h3>
+                    <p>در چند دقیقه رزور کنید و بلا فاصله تاییده دریافت کنید</p>
+                </div>
+            </article>
+            
+            <article class="benefit">
+                <div class="benefit__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16">
+  <path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+</svg>
+                </div>
+                <div class="benefit__text">
+                    <h3>قیمت مناسب</h3>
+                    <p>تضمین بهترین قیمت ها برای تور ها و اقامتگاه ها</p>
+                </div>
+            </article>
+
+
+        </div>
+
+    </section>
+    <!-- ============ history =========== -->
+    <section class="history container">
+        <div class="history__card grid grid-1x2">
+            
+            <div class="hsitory__content  ">
+                <h2>تاریخ ایران</h2>
+                <p>تاریخ ایران، داستان تمدنی کهن و پربار است؛ سرزمینی که در گذر هزاران سال، شاهد شکل‌گیری تمدن‌ها، حکومت‌ها و فرهنگ‌های گوناگون بوده و میراثی ارزشمند از هنر، معماری، دانش و فرهنگ را به یادگار گذاشته است.
+                </p>
+                <a href="" class="btn btn--primary">بیشتر بخوانید </a>
+
+                <div class="history__form">
+                    <h3>به کدام قسمت از تاریخ ایران علاقه مند هستید؟</h3>
+                    <div class="history__input">
+                        <input type="text" id="hsitory__search" placeholder="دوره، مکان، دودمان و ...">
+                        <button class="btn btn--primary">بگرد</button>
+                    </div>
+                </div>
+            </div>
+            <div class="history__image ">
+                <img src="assets/images/history.png" alt="تاریخ ایران">
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="offers container">
+            <div class="offer__header">
+                <h2>تخفیف های ویژه</h2>
+                <a class="see-all" href="">دیدن همه</a>
+            </div>
+            <div class="offer__cards slider">
+
+                <article class="offer__card slider__card">
+                   <div class="offer__image">
+                    <img src="assets/images/kish.jpg" alt="">
+                    <span>15%</span>
+                   </div>
+                   <div class="offer__content">
+                    <h3>کیش</h3>
+                    <p>چند روز آرامش، تفریحات ساحلی و گشت در جزیره</p>
+                   </div>
+                </article>
+
+                <article class="offer__card slider__card">
+                   <div class="offer__image">
+                    <img src="assets/images/tehrancity.jpg" alt="">
+                    <span>20%</span>
+                   </div>
+                   <div class="offer__content">
+                    <h3>تهران</h3>
+                    <p>گشت شهری، موزه‌گردی و تجربه پایتخت از نزدیک</p>
+                   </div>
+                </article>
+
+                <article class="offer__card slider__card">
+                   <div class="offer__image">
+                    <img src="assets/images/shirazoffer.jpg" alt="">
+                    <span>25%</span>
+                   </div>
+                   <div class="offer__content">
+                    <h3>شیراز</h3>
+                    <p>سفر به شهر شعر، باغ‌ها و تاریخ کهن ایران</p>
+                   </div>
+                </article>
+
+                <article class="offer__card slider__card">
+                   <div class="offer__image">
+                    <img src="assets/images/yazd.avif" alt="">
+                    <span>20%</span>
+                   </div>
+                   <div class="offer__content">
+                    <h3>یزد</h3>
+                    <p>گشت در بافت تاریخی، خانه‌های خشتی</p>
+                   </div>
+                </article>
+
+                <article class="offer__card slider__card">
+                   <div class="offer__image">
+                    <img src="assets/images/isfahan.jpeg" alt="">
+                    <span>20%</span>
+                   </div>
+                   <div class="offer__content">
+                    <h3>اصفهان</h3>
+                    <p>تماشای نقش‌جهان، پل خواجو و معماری باشکوه اصفهان</p>
+                   </div>
+                </article>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content container grid grid-1x3  ">
+            <div class="webinfo grid__item ">
+                <div class="footer__logo">
+                    <h3>بومیران</h3>
+                    <p>بزرگ ترین مرجع رزرو تور های ایران</p>
+                </div>
+                <div class="footer__servic ">
+                    <h3>خدمات مشتریان</h3>
+                    <ul>
+                        <li>پشتیبانی 24 ساعته</li>
+                        <li>09301447202</li>
+                        <li>info@bomiran.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__links grid__item ">
+                <h3>لینک های مفید</h3>
+                <ul>
+                    <li>سوالات متداول</li>
+                    <li>شزایط و قوانین</li>
+                    <li>تماس با ما</li>
+            </ul>
+            </div>
+            <div class="footer__ctl">
+                <h3>باشگاه مشتریان</h3>
+                <p>جهت اطلاع از تخفیف ها و تور های جدید عضو شوید</p>
+                <a href="" class="btn btn--primary">عضویت</a>
+            </div>
+            
+        </div>
+        <span>طراحی و توسعه توسط مورگان ©</span>
+    </footer>
+
+ 
+
+
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>
+
